@@ -1,0 +1,26 @@
+[
+  {
+    "header": {
+      "request_id": "native-test-turn"
+    },
+    "response": {
+      "directives": [
+        {
+          "name": "on_off_directive",
+          "sub_name": "",
+          "type": "client_action"
+        },
+        {
+          "name": "on_off_directive",
+          "sub_name": "",
+          "type": "client_action"
+        },
+        {
+          "name": "tts_play_placeholder",
+          "sub_name": "tts_play_placeholder",
+          "type": "client_action"
+        }
+      ]
+    }
+  }
+]

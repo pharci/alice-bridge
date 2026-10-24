@@ -1,0 +1,22 @@
+{
+  "bridge": {
+    "adb": "adb",
+    "serial": "192.0.2.10:5555",
+    "mode": "auto",
+    "prefixes": ["агент", "квен", "qwen", "нейро", "нейрон"],
+    "host": "127.0.0.1",
+    "port": 19876,
+    "ipc_port": 19875,
+    "token_env": "ALICE_BRIDGE_TOKEN",
+    "request_timeout_s": 180
+  },
+  "module": "external",
+  "ollama": {
+    "url": "http://127.0.0.1:11434",
+    "model": "your-model-name",
+    "keep_alive": -1,
+    "num_ctx": 4096,
+    "num_predict": 256,
+    "temperature": 0.5
+  }
+}
